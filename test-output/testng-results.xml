@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Suite" duration-ms="3064" started-at="2020-04-07T09:59:38 EDT" finished-at="2020-04-07T09:59:41 EDT">
+    <groups>
+    </groups>
+    <test name="Test on REST API" duration-ms="3064" started-at="2020-04-07T09:59:38 EDT" finished-at="2020-04-07T09:59:41 EDT">
+      <class name="com.api.AllRequestTest">
+        <test-method status="PASS" signature="testDemo()[pri:0, instance:com.api.AllRequestTest@1f7030a6]" name="testDemo" duration-ms="13" started-at="2020-04-07T09:59:38 EDT" finished-at="2020-04-07T09:59:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="test_01()[pri:0, instance:com.api.AllRequestTest@1f7030a6]" name="test_01" duration-ms="2713" started-at="2020-04-07T09:59:38 EDT" finished-at="2020-04-07T09:59:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+        <test-method status="PASS" signature="test_02()[pri:0, instance:com.api.AllRequestTest@1f7030a6]" name="test_02" duration-ms="149" started-at="2020-04-07T09:59:40 EDT" finished-at="2020-04-07T09:59:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02 -->
+        <test-method status="PASS" signature="test_03()[pri:0, instance:com.api.AllRequestTest@1f7030a6]" name="test_03" duration-ms="50" started-at="2020-04-07T09:59:40 EDT" finished-at="2020-04-07T09:59:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03 -->
+        <test-method status="PASS" signature="test_04()[pri:0, instance:com.api.AllRequestTest@1f7030a6]" name="test_04" duration-ms="57" started-at="2020-04-07T09:59:41 EDT" finished-at="2020-04-07T09:59:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_04 -->
+      </class> <!-- com.api.AllRequestTest -->
+    </test> <!-- Test on REST API -->
+  </suite> <!-- API Suite -->
+</testng-results>
