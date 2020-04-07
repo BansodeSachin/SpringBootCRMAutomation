@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="CRM Test Suite">
-  <!-- <test name="Test on REST API">
+  <test name="Test on REST API">
     <classes>
       <class name="com.crm.api.APIRequestTest"/>
     </classes>
-  </test> --> 
+  </test>
   
   <test name="Test on CRM UI Automation">
     <classes>
