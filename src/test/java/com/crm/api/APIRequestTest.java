@@ -1,4 +1,4 @@
-package com.api;
+package com.crm.api;
 
 import static com.jayway.restassured.RestAssured.given;
 
@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
 
-public class AllRequestTest {
+public class APIRequestTest {
 
 	@Test
 	public void testDemo() {
@@ -16,7 +16,7 @@ public class AllRequestTest {
 	
 	//GET	/api/customers
 	@Test	
-	public void test_01(){
+	public void test_GETRequest(){
 		Response resp = given().
 				when().
 				get("http://localhost:8082/api/customers");
@@ -27,7 +27,7 @@ public class AllRequestTest {
 	
 	//POST   /api/customers
 	@Test
-	public void test_02(){
+	public void test_POSTRequest(){
 
 		Response resp=	given().
 				body("  {\"firstName\":\"Aveer\","
@@ -43,7 +43,7 @@ public class AllRequestTest {
 	
 	//PUT   /api/customers
 	@Test
-	public void test_03(){
+	public void test_PUTRequest(){
 
 		Response resp=	given().
 				body("  {\"id\":15,"
@@ -61,7 +61,7 @@ public class AllRequestTest {
 	
 	//DELETE /api/customers/{id}
 	@Test
-	public void test_04(){
+	public void test_DELETERequest(){
 		Response resp = given().
 		when().
 		delete("http://localhost:8082/api/customers/17");

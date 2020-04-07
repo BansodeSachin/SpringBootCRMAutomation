@@ -1,2 +1,0 @@
-# SpringBootCRMAutomation
-SpringBootCRMAutomation

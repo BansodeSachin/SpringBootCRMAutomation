@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CRM Test Suite]">
+  <test thread-count="5" name="Test on CRM UI Automation(failed)">
+    <classes>
+      <class name="com.crm.ui.CRMAppAutomationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="updateCRMCustomer"/>
+        </methods>
+      </class> <!-- com.crm.ui.CRMAppAutomationTest -->
+    </classes>
+  </test> <!-- Test on CRM UI Automation(failed) -->
+</suite> <!-- Failed suite [CRM Test Suite] -->

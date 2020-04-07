@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [API Suite]" parallel="tests">
+  <test thread-count="5" name="Test on REST API(failed)" parallel="tests">
+    <classes>
+      <class name="com.crm.api.APIRequestTest">
+        <methods>
+          <include name="test_PUTRequest"/>
+          <include name="test_POSTRequest"/>
+          <include name="test_GETRequest"/>
+          <include name="test_DELETERequest"/>
+        </methods>
+      </class> <!-- com.crm.api.APIRequestTest -->
+    </classes>
+  </test> <!-- Test on REST API(failed) -->
+</suite> <!-- Failed suite [API Suite] -->
